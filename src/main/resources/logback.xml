@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+
+    <logger name="org.springframework.data.cassandra.core.cql.CqlTemplate" level="TRACE"/>
+    <logger name="org.springframework.data.cassandra.core.convert.MappingCassandraConverter" level="DEBUG"/>
+
+    <logger name="com.datastax.driver.core.Session" level="TRACE"/>
+    <logger name="com.datastax.driver.core.RequestHandler" level="TRACE"/>
+    <logger name="com.datastax.driver.core.Connection" level="TRACE"/>
+    <logger name="com.datastax.example.demo.repository.PreparedCassandraRepository" level="TRACE"/>
+</configuration>
